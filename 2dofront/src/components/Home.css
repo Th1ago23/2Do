@@ -1,0 +1,73 @@
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #101322; 
+    position : relative;
+    height: 100vh;
+    background-image:url("../img/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    width: 340px; 
+    height: 340px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .home-title {
+    font-size: 100px;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .register-button {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+  }
+  
+  .login-button {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+  }
+  
+  .home-button:hover {
+    transform: scale(1.1);
+  }
+  
